@@ -60,6 +60,7 @@ No modules.
 
 | Name | Description | Type | Default | Required |
 |------|-------------|------|---------|:--------:|
+| <a name="input_labels"></a> [labels](#input\_labels) | User-defined labels (key-value pairs) should be created with | `map(string)` | `{}` | no |
 | <a name="input_name"></a> [name](#input\_name) | Name of the SSH key | `string` | n/a | yes |
 | <a name="input_public_key"></a> [public\_key](#input\_public\_key) | The public key | `string` | n/a | yes |
 
