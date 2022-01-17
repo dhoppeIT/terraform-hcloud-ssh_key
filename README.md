@@ -4,7 +4,7 @@ Terraform module to manage the Hetzner Cloud resource (hcloud_ssh_key).
 
 ## Graph
 
-![Graph](https://github.com/dhoppeIT/terraform-hcloud-ssh_key/blob/main/rover.png)
+<img alt="Graph" src="https://github.com/dhoppeIT/terraform-hcloud-ssh_key/blob/main/rover.svg?raw=true" width="100%" height="100%">
 
 ## Usage
 
