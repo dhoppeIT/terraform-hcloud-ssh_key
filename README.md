@@ -13,7 +13,7 @@ Copy and paste into your Terraform configuration, insert the variables and run `
 **Provide SSH key as file:**
 
 ```hcl
-module "hcloud-ssh_key" {
+module "hcloud_ssh_key" {
   source = "dhoppeIT/ssh_key/hcloud"
 
   name       = "terraform"
@@ -24,7 +24,7 @@ module "hcloud-ssh_key" {
 **Provide SSH key as text:**
 
 ```hcl
-module "hcloud-ssh_key" {
+module "hcloud_ssh_key" {
   source = "dhoppeIT/ssh_key/hcloud"
 
   name       = "terraform"
