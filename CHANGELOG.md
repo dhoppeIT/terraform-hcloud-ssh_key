@@ -1,5 +1,12 @@
 # Changelog
 
+### [0.2.1](https://github.com/dhoppeIT/terraform-hcloud-ssh_key/compare/v0.2.0...v0.2.1) (2022-01-31)
+
+
+### Bug Fixes
+
+* Allow new minor releases ([#13](https://github.com/dhoppeIT/terraform-hcloud-ssh_key/issues/13)) ([bdd5b08](https://github.com/dhoppeIT/terraform-hcloud-ssh_key/commit/bdd5b08ec54fe6afa0cf5b5b9c6cd88a9cb32f0e))
+
 ## [0.2.0](https://github.com/dhoppeIT/terraform-hcloud-ssh_key/compare/v0.1.0...v0.2.0) (2022-01-15)
 
 
