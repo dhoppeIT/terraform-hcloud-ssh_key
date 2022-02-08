@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.3.0](https://github.com/dhoppeIT/terraform-hcloud-ssh_key/compare/v0.2.1...v0.3.0) (2022-02-08)
+
+
+### Features
+
+* Add ID of SSH public key as output ([#16](https://github.com/dhoppeIT/terraform-hcloud-ssh_key/issues/16)) ([adadcff](https://github.com/dhoppeIT/terraform-hcloud-ssh_key/commit/adadcffe6e285e72ac57cddec9ef0aca9dbae1b2))
+
 ### [0.2.1](https://github.com/dhoppeIT/terraform-hcloud-ssh_key/compare/v0.2.0...v0.2.1) (2022-01-31)
 
 
