@@ -1,6 +1,8 @@
 # terraform-hcloud-ssh_key
 
-Terraform module to manage the Hetzner Cloud resource (hcloud_ssh_key).
+Terraform module to manage the following Hetzner Cloud resource:
+
+* hcloud_ssh_key
 
 ## Graph
 
@@ -14,7 +16,8 @@ Copy and paste into your Terraform configuration, insert the variables and run `
 
 ```hcl
 module "hcloud_ssh_key" {
-  source = "dhoppeIT/ssh_key/hcloud"
+  source  = "dhoppeIT/ssh_key/hcloud"
+  version = "~> 0.2"
 
   name       = "terraform"
   public_key = "~/.ssh/id_terraform.pub"
@@ -25,7 +28,8 @@ module "hcloud_ssh_key" {
 
 ```hcl
 module "hcloud_ssh_key" {
-  source = "dhoppeIT/ssh_key/hcloud"
+  source  = "dhoppeIT/ssh_key/hcloud"
+  version = "~> 0.2"
 
   name       = "terraform"
   public_key = "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAACAQC3euXiX6jFStmjcDzW4dHZSdSUuip3cGu62Fhh0+zdILdzvyoMwqeuuuWova+ltZfeAgZOd6n0QKOhs2eTj6eEfTyIpmmCQgosu1GyQKQ8oHcBqDV+atrc2MQRhZPIZgVXn4CL8IldlEjYoGI6zreBY1uEhUoGC79bt9Eqtmxr1M8xQmJ1ZVI8kzDLax31vckuWnO3PlaUyT5VPBC/XPLdZ3PodX7J2CQ0MwlHzG1qFxrp1XonYpV1Rbfb9Vj4Wu27Md7RETSOZq7wlsgEC7MBTb6guFuz4tL5CfiHO3YhZEmtWi5UL7YMuP4pD+mGU3nKcQOsOYNpuzV5p7NZANv+i40BtSJiQCWbzrPAOvj8Pn5lk/7aE3uVRHAWpIwGJ3HAof9VS5EoM2oq6dwAM8bK/XBz77pOdyHv+89o3Rc/WzhBs5wSMHUd54SQZ4STEERmi/GWUcfYi30s01W2SmH3H02NI8iPfNvDma858CfwDELNJnE7rphG1INQSZArSzpTZpoHFPZ0pIvG7mFMKeYmjizV8W9TwS+IpuLR6Cm3plUIhQhAzbyeVVKAU+66DtywIKdJm20Y94joVQD3KOGlxUrqKwyTZAOkknR7/yKiQfgritlRKVdLHyW/znBKCHskwqp9WgXBP6q4YvfM3muWK+guj+wi+9CtjNUYT+tkRQ== Terraform"
@@ -69,6 +73,7 @@ No modules.
 | Name | Description |
 |------|-------------|
 | <a name="output_fingerprint"></a> [fingerprint](#output\_fingerprint) | The fingerprint of the SSH key |
+| <a name="output_id"></a> [id](#output\_id) | The unique ID of the key |
 | <a name="output_name"></a> [name](#output\_name) | The name of the SSH key |
 | <a name="output_public_key"></a> [public\_key](#output\_public\_key) | The text of the public key |
 

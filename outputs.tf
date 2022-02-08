@@ -1,3 +1,8 @@
+output "id" {
+  description = "The unique ID of the key"
+  value       = hcloud_ssh_key.default.id
+}
+
 output "name" {
   description = "The name of the SSH key"
   value       = hcloud_ssh_key.default.name

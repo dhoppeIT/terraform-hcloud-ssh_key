@@ -52,6 +52,7 @@ No resources.
 | Name | Description |
 |------|-------------|
 | <a name="output_ssh_key_fingerprint"></a> [ssh\_key\_fingerprint](#output\_ssh\_key\_fingerprint) | The fingerprint of the SSH key |
+| <a name="output_ssh_key_id"></a> [ssh\_key\_id](#output\_ssh\_key\_id) | The unique ID of the key |
 | <a name="output_ssh_key_name"></a> [ssh\_key\_name](#output\_ssh\_key\_name) | The name of the SSH key |
 | <a name="output_ssh_key_public_key"></a> [ssh\_key\_public\_key](#output\_ssh\_key\_public\_key) | The text of the public key |
 
