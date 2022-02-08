@@ -73,6 +73,7 @@ No modules.
 | Name | Description |
 |------|-------------|
 | <a name="output_fingerprint"></a> [fingerprint](#output\_fingerprint) | The fingerprint of the SSH key |
+| <a name="output_id"></a> [id](#output\_id) | The unique ID of the key |
 | <a name="output_name"></a> [name](#output\_name) | The name of the SSH key |
 | <a name="output_public_key"></a> [public\_key](#output\_public\_key) | The text of the public key |
 
