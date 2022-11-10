@@ -34,7 +34,7 @@ module "hcloud_ssh_key" {
 
 | Name | Version |
 |------|---------|
-| <a name="provider_hcloud"></a> [hcloud](#provider\_hcloud) | 1.35.2 |
+| <a name="provider_hcloud"></a> [hcloud](#provider\_hcloud) | 1.36.0 |
 
 ## Modules
 
