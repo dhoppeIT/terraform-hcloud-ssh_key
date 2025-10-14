@@ -1,6 +1,6 @@
 module "hcloud_ssh_key" {
   source = "../.."
 
-  name       = "example-public_key"
+  name       = "example-ssh-key"
   public_key = "./dhoppeit.pub"
 }
